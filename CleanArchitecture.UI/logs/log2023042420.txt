@@ -1,0 +1,83 @@
+2023-04-24 20:45:45.400 +03:00 [INF] User profile is available. Using 'C:\Users\Vladislav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-24 20:45:45.541 +03:00 [INF] Creating key {81ed78ef-48d2-4c01-b182-8b25950f2799} with creation date 2023-04-24 17:45:45Z, activation date 2023-04-26 09:24:06Z, and expiration date 2023-07-23 17:45:45Z.
+2023-04-24 20:45:45.553 +03:00 [INF] Writing data to file 'C:\Users\Vladislav\AppData\Local\ASP.NET\DataProtection-Keys\key-81ed78ef-48d2-4c01-b182-8b25950f2799.xml'.
+2023-04-24 20:45:45.730 +03:00 [INF] Now listening on: https://localhost:7206
+2023-04-24 20:45:45.731 +03:00 [INF] Now listening on: http://localhost:5206
+2023-04-24 20:45:45.735 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-24 20:45:45.736 +03:00 [INF] Hosting environment: Development
+2023-04-24 20:45:45.736 +03:00 [INF] Content root path: D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\
+2023-04-24 20:45:47.560 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/ - -
+2023-04-24 20:45:47.618 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-24 20:45:47.677 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (CleanArchitecture.UI).
+2023-04-24 20:45:47.895 +03:00 [INF] PersonsListActionFilter.OnActionExecuting method
+2023-04-24 20:45:47.896 +03:00 [INF] ResponseHeaderActionFilter.OnActionExecuting method
+2023-04-24 20:45:47.913 +03:00 [INF] Index service in PersonsController
+2023-04-24 20:45:47.995 +03:00 [INF] GetFilteredPersons method in PersonsService
+2023-04-24 20:45:47.999 +03:00 [INF] GetAllPersons method in PersonsService
+2023-04-24 20:45:48.001 +03:00 [INF] GetAllPersons method in PersonsRepository
+2023-04-24 20:45:49.402 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-24 20:45:51.663 +03:00 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber]
+FROM [Persons] AS [p]
+2023-04-24 20:45:51.778 +03:00 [INF] GetSortedPersons method in PersonsService
+2023-04-24 20:45:51.783 +03:00 [INF] ResponseHeaderActionFilter.OnActionExecuted method
+2023-04-24 20:45:51.784 +03:00 [INF] PersonsListActionFilter.OnActionExecuted method
+2023-04-24 20:45:51.795 +03:00 [INF] Executing ViewResult, running view Index.
+2023-04-24 20:45:52.089 +03:00 [INF] Executed ViewResult - view Index executed in 295.5388ms.
+2023-04-24 20:45:52.097 +03:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI) in 4417.4601ms
+2023-04-24 20:45:52.099 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-24 20:45:52.185 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-24 20:45:52.185 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 20:45:52.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 7.7369ms
+2023-04-24 20:45:52.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/ - - - 200 - text/html;+charset=utf-8 4640.2247ms
+2023-04-24 20:45:52.221 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-24 20:45:52.223 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 37.6343ms
+2023-04-24 20:45:52.706 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/favicon.ico - -
+2023-04-24 20:45:52.708 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\favicon.ico'
+2023-04-24 20:45:52.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/favicon.ico - - - 200 5430 image/x-icon 4.0924ms
+2023-04-24 20:45:55.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Persons/Create - -
+2023-04-24 20:45:55.463 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Create (CleanArchitecture.UI)'
+2023-04-24 20:45:55.472 +03:00 [INF] Route matched with {action = "Create", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller CRUDExample.Controllers.PersonsController (CleanArchitecture.UI).
+2023-04-24 20:45:55.489 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-24 20:45:55.502 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CountryID], [c].[CountryName]
+FROM [Country] AS [c]
+2023-04-24 20:45:55.512 +03:00 [INF] Executing ViewResult, running view Create.
+2023-04-24 20:45:55.600 +03:00 [INF] Executed ViewResult - view Create executed in 88.3984ms.
+2023-04-24 20:45:55.601 +03:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Create (CleanArchitecture.UI) in 123.1897ms
+2023-04-24 20:45:55.603 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Create (CleanArchitecture.UI)'
+2023-04-24 20:45:55.612 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Persons/Create - - - 200 - text/html;+charset=utf-8 158.7907ms
+2023-04-24 20:45:55.625 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-24 20:45:55.630 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 20:45:55.631 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-24 20:45:55.633 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 2.6920ms
+2023-04-24 20:45:55.634 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 9.7191ms
+2023-04-24 20:45:55.814 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-24 20:45:55.816 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-24 20:45:55.820 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 5.5992ms
+2023-04-24 20:45:57.792 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Persons/Index - -
+2023-04-24 20:45:57.799 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-24 20:45:57.805 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (CleanArchitecture.UI).
+2023-04-24 20:45:57.818 +03:00 [INF] PersonsListActionFilter.OnActionExecuting method
+2023-04-24 20:45:57.821 +03:00 [INF] ResponseHeaderActionFilter.OnActionExecuting method
+2023-04-24 20:45:57.824 +03:00 [INF] Index service in PersonsController
+2023-04-24 20:45:57.825 +03:00 [INF] GetFilteredPersons method in PersonsService
+2023-04-24 20:45:57.827 +03:00 [INF] GetAllPersons method in PersonsService
+2023-04-24 20:45:57.828 +03:00 [INF] GetAllPersons method in PersonsRepository
+2023-04-24 20:45:57.903 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-24 20:45:57.911 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber]
+FROM [Persons] AS [p]
+2023-04-24 20:45:57.915 +03:00 [INF] GetSortedPersons method in PersonsService
+2023-04-24 20:45:57.916 +03:00 [INF] ResponseHeaderActionFilter.OnActionExecuted method
+2023-04-24 20:45:57.917 +03:00 [INF] PersonsListActionFilter.OnActionExecuted method
+2023-04-24 20:45:57.918 +03:00 [INF] Executing ViewResult, running view Index.
+2023-04-24 20:45:57.923 +03:00 [INF] Executed ViewResult - view Index executed in 4.8536ms.
+2023-04-24 20:45:57.924 +03:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI) in 115.2155ms
+2023-04-24 20:45:57.926 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-24 20:45:57.929 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Persons/Index - - - 200 - text/html;+charset=utf-8 137.4111ms
+2023-04-24 20:45:57.940 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-24 20:45:57.944 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-24 20:45:57.945 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-24 20:45:57.957 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 11.6363ms
+2023-04-24 20:45:57.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 8.8604ms

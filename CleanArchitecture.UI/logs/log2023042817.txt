@@ -1,0 +1,713 @@
+2023-04-28 17:02:03.483 +03:00 [INF] User profile is available. Using 'C:\Users\Vladislav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-28 17:02:03.752 +03:00 [INF] Now listening on: https://localhost:7206
+2023-04-28 17:02:03.753 +03:00 [INF] Now listening on: http://localhost:5206
+2023-04-28 17:02:03.756 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-28 17:02:03.756 +03:00 [INF] Hosting environment: Development
+2023-04-28 17:02:03.757 +03:00 [INF] Content root path: D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\
+2023-04-28 17:02:04.942 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/ - -
+2023-04-28 17:02:05.020 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:02:05.032 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:02:05.051 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/ - - - 302 0 - 112.1348ms
+2023-04-28 17:02:05.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - -
+2023-04-28 17:02:05.072 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:02:05.092 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:02:05.295 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:02:05.546 +03:00 [INF] Executed ViewResult - view Login executed in 252.2177ms.
+2023-04-28 17:02:05.559 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 462.9768ms
+2023-04-28 17:02:05.561 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:02:05.591 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 535.3857ms
+2023-04-28 17:02:05.592 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:02:05.606 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:02:05.608 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 15.2724ms
+2023-04-28 17:02:05.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:02:05.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 6.1993ms
+2023-04-28 17:02:05.731 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:02:05.745 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:02:05.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 15.8641ms
+2023-04-28 17:02:55.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Register - -
+2023-04-28 17:02:55.344 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI)'
+2023-04-28 17:02:55.348 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:02:55.389 +03:00 [INF] Executing ViewResult, running view Register.
+2023-04-28 17:02:55.467 +03:00 [INF] Executed ViewResult - view Register executed in 78.9148ms.
+2023-04-28 17:02:55.468 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI) in 116.7558ms
+2023-04-28 17:02:55.469 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI)'
+2023-04-28 17:02:55.476 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Register - - - 200 - text/html;+charset=utf-8 161.5026ms
+2023-04-28 17:02:55.484 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:02:55.491 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:02:55.491 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:02:55.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 1.1518ms
+2023-04-28 17:02:55.494 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 10.0173ms
+2023-04-28 17:02:55.614 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:02:55.617 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:02:55.619 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 4.6134ms
+2023-04-28 17:03:20.790 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7206/Account/Register application/x-www-form-urlencoded 311
+2023-04-28 17:03:20.801 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI)'
+2023-04-28 17:03:20.816 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(CleanArchitecture.Core.DTO.RegisterDTO) on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:03:21.802 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:03:23.838 +03:00 [INF] Executed DbCommand (104ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-04-28 17:03:24.155 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PersonName], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+2023-04-28 17:03:24.215 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-04-28 17:03:24.232 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-04-28 17:03:24.276 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2023-04-28 17:03:24.303 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2023-04-28 17:03:24.368 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Guid), @__get_Item_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE ([a].[UserId] = @__get_Item_0) AND ([a].[RoleId] = @__get_Item_1)
+2023-04-28 17:03:24.379 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2023-04-28 17:03:24.407 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-04-28 17:03:24.434 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+2023-04-28 17:03:24.449 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p15='?' (DbType = Guid), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p16='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PersonName] = @p9, [PhoneNumber] = @p10, [PhoneNumberConfirmed] = @p11, [SecurityStamp] = @p12, [TwoFactorEnabled] = @p13, [UserName] = @p14
+WHERE [Id] = @p15 AND [ConcurrencyStamp] = @p16;
+SELECT @@ROWCOUNT;
+2023-04-28 17:03:24.514 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-04-28 17:03:24.569 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-04-28 17:03:24.579 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-04-28 17:03:24.589 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2023-04-28 17:03:24.599 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-04-28 17:03:24.606 +03:00 [INF] Executing RedirectResult, redirecting to /Persons/Index.
+2023-04-28 17:03:24.608 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI) in 3788.0827ms
+2023-04-28 17:03:24.610 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI)'
+2023-04-28 17:03:24.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Persons/Index - -
+2023-04-28 17:03:24.624 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7206/Account/Register application/x-www-form-urlencoded 311 - 302 0 - 3836.0058ms
+2023-04-28 17:03:24.627 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-28 17:03:24.633 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (CleanArchitecture.UI).
+2023-04-28 17:03:24.639 +03:00 [INF] PersonsListActionFilter.OnActionExecuting method
+2023-04-28 17:03:24.642 +03:00 [INF] Index service in PersonsController
+2023-04-28 17:03:24.646 +03:00 [INF] GetFilteredPersons method in PersonsService
+2023-04-28 17:03:24.648 +03:00 [INF] GetAllPersons method in PersonsService
+2023-04-28 17:03:24.649 +03:00 [INF] GetAllPersons method in PersonsRepository
+2023-04-28 17:03:24.693 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:03:24.710 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber]
+FROM [Persons] AS [p]
+2023-04-28 17:03:24.734 +03:00 [INF] GetSortedPersons method in PersonsService
+2023-04-28 17:03:24.737 +03:00 [INF] PersonsListActionFilter.OnActionExecuted method
+2023-04-28 17:03:24.738 +03:00 [INF] Executing ViewResult, running view Index.
+2023-04-28 17:03:24.798 +03:00 [INF] Executed ViewResult - view Index executed in 60.5141ms.
+2023-04-28 17:03:24.800 +03:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI) in 164.4232ms
+2023-04-28 17:03:24.801 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-28 17:03:24.806 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Persons/Index - - - 200 - text/html;+charset=utf-8 185.0445ms
+2023-04-28 17:03:24.820 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:03:24.834 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:03:24.834 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:03:24.844 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 10.0857ms
+2023-04-28 17:03:24.845 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 24.4586ms
+2023-04-28 17:03:28.708 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Admin/Home/Index - -
+2023-04-28 17:03:28.711 +03:00 [INF] Executing endpoint 'CleanArchitecture.UI.Areas.Admin.Controllers.HomeController.Index (CleanArchitecture.UI)'
+2023-04-28 17:03:28.714 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CleanArchitecture.UI.Areas.Admin.Controllers.HomeController (CleanArchitecture.UI).
+2023-04-28 17:03:28.718 +03:00 [INF] Executing ViewResult, running view Index.
+2023-04-28 17:03:28.729 +03:00 [INF] Executed ViewResult - view Index executed in 11.9872ms.
+2023-04-28 17:03:28.731 +03:00 [INF] Executed action CleanArchitecture.UI.Areas.Admin.Controllers.HomeController.Index (CleanArchitecture.UI) in 14.4251ms
+2023-04-28 17:03:28.733 +03:00 [INF] Executed endpoint 'CleanArchitecture.UI.Areas.Admin.Controllers.HomeController.Index (CleanArchitecture.UI)'
+2023-04-28 17:03:28.736 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Admin/Home/Index - - - 200 - text/html;+charset=utf-8 28.3831ms
+2023-04-28 17:03:30.452 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Persons/Index - -
+2023-04-28 17:03:30.458 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-28 17:03:30.460 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (CleanArchitecture.UI).
+2023-04-28 17:03:30.464 +03:00 [INF] PersonsListActionFilter.OnActionExecuting method
+2023-04-28 17:03:30.471 +03:00 [INF] Index service in PersonsController
+2023-04-28 17:03:30.472 +03:00 [INF] GetFilteredPersons method in PersonsService
+2023-04-28 17:03:30.472 +03:00 [INF] GetAllPersons method in PersonsService
+2023-04-28 17:03:30.473 +03:00 [INF] GetAllPersons method in PersonsRepository
+2023-04-28 17:03:30.481 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:03:30.486 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber]
+FROM [Persons] AS [p]
+2023-04-28 17:03:30.489 +03:00 [INF] GetSortedPersons method in PersonsService
+2023-04-28 17:03:30.490 +03:00 [INF] PersonsListActionFilter.OnActionExecuted method
+2023-04-28 17:03:30.490 +03:00 [INF] Executing ViewResult, running view Index.
+2023-04-28 17:03:30.495 +03:00 [INF] Executed ViewResult - view Index executed in 4.5336ms.
+2023-04-28 17:03:30.497 +03:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI) in 32.9963ms
+2023-04-28 17:03:30.498 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-28 17:03:30.501 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Persons/Index - - - 200 - text/html;+charset=utf-8 49.7687ms
+2023-04-28 17:03:30.515 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:03:30.517 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:03:30.518 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:03:30.520 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 5.0473ms
+2023-04-28 17:03:30.520 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 2.4888ms
+2023-04-28 17:28:21.311 +03:00 [INF] User profile is available. Using 'C:\Users\Vladislav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-28 17:28:21.542 +03:00 [INF] Now listening on: https://localhost:7206
+2023-04-28 17:28:21.543 +03:00 [INF] Now listening on: https://localhost:5206
+2023-04-28 17:28:21.546 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-28 17:28:21.546 +03:00 [INF] Hosting environment: Development
+2023-04-28 17:28:21.547 +03:00 [INF] Content root path: D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\
+2023-04-28 17:28:22.849 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/ - -
+2023-04-28 17:28:22.926 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:28:22.938 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:28:22.959 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/ - - - 302 0 - 113.3138ms
+2023-04-28 17:28:22.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - -
+2023-04-28 17:28:22.981 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:28:23.004 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:28:23.169 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:28:23.451 +03:00 [INF] Executed ViewResult - view Login executed in 283.0635ms.
+2023-04-28 17:28:23.464 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 457.3789ms
+2023-04-28 17:28:23.466 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:28:24.205 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 1244.0763ms
+2023-04-28 17:28:24.210 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:28:24.219 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:28:24.226 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 8.1180ms
+2023-04-28 17:28:24.231 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:28:24.233 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 22.9486ms
+2023-04-28 17:28:24.373 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:28:24.377 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:28:24.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 6.1820ms
+2023-04-28 17:28:32.064 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login - -
+2023-04-28 17:28:32.073 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:28:32.080 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:28:32.099 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:28:32.128 +03:00 [INF] Executed ViewResult - view Login executed in 30.8039ms.
+2023-04-28 17:28:32.130 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 46.699ms
+2023-04-28 17:28:32.132 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:28:32.135 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login - - - 200 - text/html;+charset=utf-8 71.6348ms
+2023-04-28 17:28:32.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:28:32.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:28:32.167 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 2.6170ms
+2023-04-28 17:28:32.178 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:28:32.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 28.9277ms
+2023-04-28 17:28:32.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:28:32.223 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:28:32.227 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 6.9553ms
+2023-04-28 17:28:36.721 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Persons/Index - -
+2023-04-28 17:28:36.725 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:28:36.730 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:28:36.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Persons/Index - - - 302 0 - 12.8849ms
+2023-04-28 17:28:36.738 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2FPersons%2FIndex - -
+2023-04-28 17:28:36.740 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:28:36.741 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:28:36.761 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:28:36.774 +03:00 [INF] Executed ViewResult - view Login executed in 13.4459ms.
+2023-04-28 17:28:36.776 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 31.1867ms
+2023-04-28 17:28:36.780 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:28:36.784 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2FPersons%2FIndex - - - 200 - text/html;+charset=utf-8 46.6337ms
+2023-04-28 17:28:36.804 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:28:36.811 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:28:36.811 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:28:36.814 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 3.5237ms
+2023-04-28 17:28:36.820 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 16.2728ms
+2023-04-28 17:28:36.867 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:28:36.870 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:28:36.872 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 5.5196ms
+2023-04-28 17:28:43.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - -
+2023-04-28 17:28:43.076 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:28:43.078 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:28:43.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - - - 401 0 - 7.4884ms
+2023-04-28 17:29:01.243 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Register - -
+2023-04-28 17:29:01.247 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI)'
+2023-04-28 17:29:01.252 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:29:01.259 +03:00 [INF] Executing ViewResult, running view Register.
+2023-04-28 17:29:01.345 +03:00 [INF] Executed ViewResult - view Register executed in 86.8067ms.
+2023-04-28 17:29:01.347 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI) in 89.6586ms
+2023-04-28 17:29:01.350 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI)'
+2023-04-28 17:29:01.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Register - - - 200 - text/html;+charset=utf-8 115.1519ms
+2023-04-28 17:29:01.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:29:01.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:29:01.394 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:29:01.396 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 4.9233ms
+2023-04-28 17:29:01.404 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 12.9325ms
+2023-04-28 17:29:01.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:29:01.459 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:29:01.461 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 6.0917ms
+2023-04-28 17:29:02.137 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login - -
+2023-04-28 17:29:02.141 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:29:02.143 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:29:02.147 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:29:02.155 +03:00 [INF] Executed ViewResult - view Login executed in 7.7614ms.
+2023-04-28 17:29:02.157 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 9.6544ms
+2023-04-28 17:29:02.160 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:29:02.164 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login - - - 200 - text/html;+charset=utf-8 27.6095ms
+2023-04-28 17:29:02.184 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:29:02.189 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:29:02.196 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 12.0707ms
+2023-04-28 17:29:02.200 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:29:02.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 17.1039ms
+2023-04-28 17:29:02.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:29:02.258 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:29:02.262 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 7.6864ms
+2023-04-28 17:29:09.822 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - -
+2023-04-28 17:29:09.827 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:29:09.829 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:29:09.831 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - - - 401 0 - 8.9958ms
+2023-04-28 17:31:20.176 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Register - -
+2023-04-28 17:31:20.194 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI)'
+2023-04-28 17:31:20.196 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:31:20.203 +03:00 [INF] Executing ViewResult, running view Register.
+2023-04-28 17:31:20.212 +03:00 [INF] Executed ViewResult - view Register executed in 9.0332ms.
+2023-04-28 17:31:20.213 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI) in 10.5491ms
+2023-04-28 17:31:20.214 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Register (CleanArchitecture.UI)'
+2023-04-28 17:31:20.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Register - - - 200 - text/html;+charset=utf-8 42.8537ms
+2023-04-28 17:31:20.243 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:31:20.243 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:31:20.247 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:31:20.247 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 4.6430ms
+2023-04-28 17:31:20.254 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 11.5927ms
+2023-04-28 17:31:20.337 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:31:20.338 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:31:20.340 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 3.2761ms
+2023-04-28 17:31:23.516 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login - -
+2023-04-28 17:31:23.521 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:31:23.524 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:31:23.528 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:31:23.535 +03:00 [INF] Executed ViewResult - view Login executed in 7.807ms.
+2023-04-28 17:31:23.539 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 11.345ms
+2023-04-28 17:31:23.541 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:31:23.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login - - - 200 - text/html;+charset=utf-8 28.4972ms
+2023-04-28 17:31:23.564 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:31:23.570 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:31:23.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:31:23.574 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 10.6679ms
+2023-04-28 17:31:23.576 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 4.5867ms
+2023-04-28 17:31:23.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:31:23.666 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:31:23.667 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 3.9385ms
+2023-04-28 17:31:26.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - -
+2023-04-28 17:31:26.859 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:31:26.861 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:31:26.863 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - - - 401 0 - 10.1276ms
+2023-04-28 17:33:03.321 +03:00 [INF] User profile is available. Using 'C:\Users\Vladislav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-28 17:33:03.616 +03:00 [INF] Now listening on: https://localhost:7206
+2023-04-28 17:33:03.617 +03:00 [INF] Now listening on: https://localhost:5206
+2023-04-28 17:33:03.621 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-28 17:33:03.622 +03:00 [INF] Hosting environment: Development
+2023-04-28 17:33:03.623 +03:00 [INF] Content root path: D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\
+2023-04-28 17:33:04.628 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/ - -
+2023-04-28 17:33:04.699 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:33:04.710 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:33:04.728 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/ - - - 302 0 - 101.9488ms
+2023-04-28 17:33:04.729 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - -
+2023-04-28 17:33:07.342 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:33:07.371 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:33:07.537 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:33:07.819 +03:00 [INF] Executed ViewResult - view Login executed in 281.6419ms.
+2023-04-28 17:33:07.831 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 456.8985ms
+2023-04-28 17:33:07.833 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:33:07.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:33:07.884 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 3155.4140ms
+2023-04-28 17:33:07.900 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:33:07.901 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 16.8417ms
+2023-04-28 17:33:08.019 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:33:08.024 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 5.1514ms
+2023-04-28 17:33:08.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:33:08.136 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:33:08.137 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 2.8463ms
+2023-04-28 17:33:10.985 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - -
+2023-04-28 17:33:10.993 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:33:10.997 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:33:11.000 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - - - 401 0 - 15.3512ms
+2023-04-28 17:33:43.296 +03:00 [INF] User profile is available. Using 'C:\Users\Vladislav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-28 17:33:43.578 +03:00 [INF] Now listening on: https://localhost:7206
+2023-04-28 17:33:43.580 +03:00 [INF] Now listening on: https://localhost:5206
+2023-04-28 17:33:43.595 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-28 17:33:43.596 +03:00 [INF] Hosting environment: Development
+2023-04-28 17:33:43.598 +03:00 [INF] Content root path: D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\
+2023-04-28 17:33:45.008 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/ - -
+2023-04-28 17:33:45.076 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:33:45.088 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:33:45.105 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/ - - - 302 0 - 101.3108ms
+2023-04-28 17:33:45.109 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - -
+2023-04-28 17:33:49.508 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:33:49.550 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:33:49.728 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:33:50.019 +03:00 [INF] Executed ViewResult - view Login executed in 298.0769ms.
+2023-04-28 17:33:50.028 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 472.3275ms
+2023-04-28 17:33:50.030 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:33:50.079 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 4971.1038ms
+2023-04-28 17:33:50.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:33:50.101 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:33:50.103 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 21.6730ms
+2023-04-28 17:33:50.170 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:33:50.174 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 4.2301ms
+2023-04-28 17:33:50.284 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:33:50.287 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:33:50.289 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 5.0071ms
+2023-04-28 17:33:53.231 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - -
+2023-04-28 17:33:53.239 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:33:53.242 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:33:53.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - - - 401 0 - 11.4177ms
+2023-04-28 17:34:05.645 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login - -
+2023-04-28 17:34:05.650 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:34:05.652 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:34:05.669 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:34:05.692 +03:00 [INF] Executed ViewResult - view Login executed in 23.3667ms.
+2023-04-28 17:34:05.693 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 38.2104ms
+2023-04-28 17:34:05.694 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:34:05.698 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login - - - 200 - text/html;+charset=utf-8 53.4121ms
+2023-04-28 17:34:05.713 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:34:05.719 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:34:05.719 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:34:05.720 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 1.2863ms
+2023-04-28 17:34:05.723 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 10.2636ms
+2023-04-28 17:34:05.830 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:34:05.831 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:34:05.833 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 3.3756ms
+2023-04-28 17:34:08.200 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=vladikwww3vladik%40gmail.com - -
+2023-04-28 17:34:08.204 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:34:08.207 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:34:08.208 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=vladikwww3vladik%40gmail.com - - - 401 0 - 7.6497ms
+2023-04-28 17:36:51.293 +03:00 [INF] User profile is available. Using 'C:\Users\Vladislav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-28 17:36:51.579 +03:00 [INF] Now listening on: https://localhost:7206
+2023-04-28 17:36:51.580 +03:00 [INF] Now listening on: https://localhost:5206
+2023-04-28 17:36:51.583 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-28 17:36:51.584 +03:00 [INF] Hosting environment: Development
+2023-04-28 17:36:51.584 +03:00 [INF] Content root path: D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\
+2023-04-28 17:36:53.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/ - -
+2023-04-28 17:36:53.232 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:36:53.243 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:36:53.261 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/ - - - 302 0 - 98.8743ms
+2023-04-28 17:36:53.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - -
+2023-04-28 17:36:53.284 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:36:53.302 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:36:53.467 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:36:53.713 +03:00 [INF] Executed ViewResult - view Login executed in 247.4019ms.
+2023-04-28 17:36:53.724 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 419.0294ms
+2023-04-28 17:36:53.728 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:36:53.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:36:53.761 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 487.8429ms
+2023-04-28 17:36:53.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:36:53.772 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 4.0892ms
+2023-04-28 17:36:53.779 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:36:53.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 19.0389ms
+2023-04-28 17:36:53.983 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:36:53.992 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:36:53.994 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 10.8678ms
+2023-04-28 17:36:56.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - -
+2023-04-28 17:36:56.777 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.IsEmailAlreadyExists (CleanArchitecture.UI)'
+2023-04-28 17:36:56.800 +03:00 [INF] Route matched with {action = "IsEmailAlreadyExists", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IsEmailAlreadyExists(System.String) on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:36:57.772 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:36:59.808 +03:00 [INF] Executed DbCommand (124ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-04-28 17:36:59.958 +03:00 [INF] Executing JsonResult, writing value of type 'System.Boolean'.
+2023-04-28 17:36:59.965 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.IsEmailAlreadyExists (CleanArchitecture.UI) in 3156.9477ms
+2023-04-28 17:36:59.968 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.IsEmailAlreadyExists (CleanArchitecture.UI)'
+2023-04-28 17:36:59.979 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - - - 200 - application/json;+charset=utf-8 3211.1206ms
+2023-04-28 17:37:09.582 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login - -
+2023-04-28 17:37:09.586 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:37:09.589 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:37:09.600 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:37:09.615 +03:00 [INF] Executed ViewResult - view Login executed in 15.1904ms.
+2023-04-28 17:37:09.617 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 25.4914ms
+2023-04-28 17:37:09.619 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:37:09.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login - - - 200 - text/html;+charset=utf-8 45.5652ms
+2023-04-28 17:37:09.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:37:09.646 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:37:09.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:37:09.649 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 10.2764ms
+2023-04-28 17:37:09.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 4.8779ms
+2023-04-28 17:37:09.738 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:37:09.740 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:37:09.741 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 3.6974ms
+2023-04-28 17:37:14.939 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - -
+2023-04-28 17:37:14.945 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.IsEmailAlreadyExists (CleanArchitecture.UI)'
+2023-04-28 17:37:14.948 +03:00 [INF] Route matched with {action = "IsEmailAlreadyExists", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IsEmailAlreadyExists(System.String) on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:37:14.991 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:37:15.000 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-04-28 17:37:15.004 +03:00 [INF] Executing JsonResult, writing value of type 'System.Boolean'.
+2023-04-28 17:37:15.005 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.IsEmailAlreadyExists (CleanArchitecture.UI) in 50.4837ms
+2023-04-28 17:37:15.006 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.IsEmailAlreadyExists (CleanArchitecture.UI)'
+2023-04-28 17:37:15.007 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - - - 200 - application/json;+charset=utf-8 67.8816ms
+2023-04-28 17:38:36.917 +03:00 [INF] User profile is available. Using 'C:\Users\Vladislav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-28 17:38:37.211 +03:00 [INF] Now listening on: https://localhost:7206
+2023-04-28 17:38:37.213 +03:00 [INF] Now listening on: https://localhost:5206
+2023-04-28 17:38:37.224 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-28 17:38:37.225 +03:00 [INF] Hosting environment: Development
+2023-04-28 17:38:37.226 +03:00 [INF] Content root path: D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\
+2023-04-28 17:38:38.270 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/ - -
+2023-04-28 17:38:38.341 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:38:38.353 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:38:38.374 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/ - - - 302 0 - 105.3810ms
+2023-04-28 17:38:38.375 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - -
+2023-04-28 17:38:38.421 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:38:38.455 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:38:38.623 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:38:38.917 +03:00 [INF] Executed ViewResult - view Login executed in 294.4498ms.
+2023-04-28 17:38:38.927 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 469.9483ms
+2023-04-28 17:38:38.929 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:38:38.969 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 593.3847ms
+2023-04-28 17:38:38.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:38:38.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:38:38.980 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 5.8744ms
+2023-04-28 17:38:38.986 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:38:38.987 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 16.8246ms
+2023-04-28 17:38:39.185 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:38:39.186 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:38:39.187 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 2.5897ms
+2023-04-28 17:38:42.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - -
+2023-04-28 17:38:42.803 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.IsEmailAlreadyExists (CleanArchitecture.UI)'
+2023-04-28 17:38:42.819 +03:00 [INF] Route matched with {action = "IsEmailAlreadyExists", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IsEmailAlreadyExists(System.String) on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:38:43.790 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:38:44.806 +03:00 [INF] Executed DbCommand (114ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-04-28 17:38:44.948 +03:00 [INF] Executing JsonResult, writing value of type 'System.Boolean'.
+2023-04-28 17:38:44.954 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.IsEmailAlreadyExists (CleanArchitecture.UI) in 2129.1594ms
+2023-04-28 17:38:44.957 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.IsEmailAlreadyExists (CleanArchitecture.UI)'
+2023-04-28 17:38:44.967 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/IsEmailAlreadyExists?Email=qwertyu%40gmail.com - - - 200 - application/json;+charset=utf-8 2176.6614ms
+2023-04-28 17:40:30.761 +03:00 [INF] User profile is available. Using 'C:\Users\Vladislav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-28 17:40:31.113 +03:00 [INF] Now listening on: https://localhost:7206
+2023-04-28 17:40:31.127 +03:00 [INF] Now listening on: https://localhost:5206
+2023-04-28 17:40:31.133 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-28 17:40:31.134 +03:00 [INF] Hosting environment: Development
+2023-04-28 17:40:31.135 +03:00 [INF] Content root path: D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\
+2023-04-28 17:40:32.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/ - -
+2023-04-28 17:40:32.250 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:40:32.261 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:40:32.280 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/ - - - 302 0 - 108.9889ms
+2023-04-28 17:40:32.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - -
+2023-04-28 17:40:32.297 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:40:32.315 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:40:32.472 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:40:32.727 +03:00 [INF] Executed ViewResult - view Login executed in 254.9707ms.
+2023-04-28 17:40:32.740 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 423.4267ms
+2023-04-28 17:40:32.743 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:40:32.768 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 486.0191ms
+2023-04-28 17:40:32.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:40:32.776 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:40:32.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 4.2775ms
+2023-04-28 17:40:32.787 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:40:32.788 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 18.5509ms
+2023-04-28 17:40:33.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:40:33.058 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:40:33.060 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 10.6921ms
+2023-04-28 17:40:43.070 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7206/Account/Login?ReturnUrl=%2F application/x-www-form-urlencoded 232
+2023-04-28 17:40:43.079 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:40:43.103 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CleanArchitecture.Core.DTO.LoginDTO, System.String) on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:40:48.339 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7206/Account/Login?ReturnUrl=%2F application/x-www-form-urlencoded 232
+2023-04-28 17:40:48.339 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7206/Account/Login?ReturnUrl=%2F application/x-www-form-urlencoded 232
+2023-04-28 17:40:48.343 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:40:48.345 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:40:48.347 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CleanArchitecture.Core.DTO.LoginDTO, System.String) on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:40:48.348 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CleanArchitecture.Core.DTO.LoginDTO, System.String) on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:40:49.250 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:40:49.250 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:40:49.250 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:40:50.425 +03:00 [INF] Executed DbCommand (137ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-04-28 17:40:50.425 +03:00 [INF] Executed DbCommand (137ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-04-28 17:40:50.425 +03:00 [INF] Executed DbCommand (137ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-04-28 17:40:50.684 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-04-28 17:40:50.684 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-04-28 17:40:50.684 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__user_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-04-28 17:40:50.734 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-04-28 17:40:50.734 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-04-28 17:40:50.734 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-04-28 17:40:50.746 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-04-28 17:40:50.746 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-04-28 17:40:50.746 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-04-28 17:40:50.769 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2023-04-28 17:40:50.769 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2023-04-28 17:40:50.769 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[ClaimType], [a].[ClaimValue]
+FROM [AspNetRoleClaims] AS [a]
+WHERE [a].[RoleId] = @__role_Id_0
+2023-04-28 17:40:50.780 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-04-28 17:40:50.780 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-04-28 17:40:50.780 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-04-28 17:40:50.788 +03:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-04-28 17:40:50.788 +03:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-04-28 17:40:50.788 +03:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2023-04-28 17:40:50.789 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 2430.0981ms
+2023-04-28 17:40:50.790 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 2434.9883ms
+2023-04-28 17:40:50.791 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 7683.8478ms
+2023-04-28 17:40:50.792 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:40:50.793 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:40:50.794 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:40:50.799 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/ - -
+2023-04-28 17:40:50.800 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7206/Account/Login?ReturnUrl=%2F application/x-www-form-urlencoded 232 - 0 - - 2461.9052ms
+2023-04-28 17:40:50.800 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7206/Account/Login?ReturnUrl=%2F application/x-www-form-urlencoded 232 - 0 - - 7730.4124ms
+2023-04-28 17:40:50.800 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7206/Account/Login?ReturnUrl=%2F application/x-www-form-urlencoded 232 - 302 0 - 2461.7357ms
+2023-04-28 17:40:50.804 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-28 17:40:50.812 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (CleanArchitecture.UI).
+2023-04-28 17:40:50.816 +03:00 [INF] PersonsListActionFilter.OnActionExecuting method
+2023-04-28 17:40:50.817 +03:00 [INF] Index service in PersonsController
+2023-04-28 17:40:50.823 +03:00 [INF] GetFilteredPersons method in PersonsService
+2023-04-28 17:40:50.824 +03:00 [INF] GetAllPersons method in PersonsService
+2023-04-28 17:40:50.825 +03:00 [INF] GetAllPersons method in PersonsRepository
+2023-04-28 17:40:50.860 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:40:50.872 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber]
+FROM [Persons] AS [p]
+2023-04-28 17:40:50.902 +03:00 [INF] GetSortedPersons method in PersonsService
+2023-04-28 17:40:50.904 +03:00 [INF] PersonsListActionFilter.OnActionExecuted method
+2023-04-28 17:40:50.905 +03:00 [INF] Executing ViewResult, running view Index.
+2023-04-28 17:40:50.959 +03:00 [INF] Executed ViewResult - view Index executed in 53.716ms.
+2023-04-28 17:40:50.960 +03:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI) in 145.9472ms
+2023-04-28 17:40:50.961 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-28 17:40:50.964 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/ - - - 200 - text/html;+charset=utf-8 165.3659ms
+2023-04-28 17:40:50.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:40:50.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:40:50.984 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:40:50.985 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 3.1103ms
+2023-04-28 17:40:50.986 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 4.9410ms
+2023-04-28 17:41:08.735 +03:00 [INF] User profile is available. Using 'C:\Users\Vladislav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-28 17:41:08.955 +03:00 [INF] Now listening on: https://localhost:7206
+2023-04-28 17:41:08.956 +03:00 [INF] Now listening on: https://localhost:5206
+2023-04-28 17:41:08.960 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-28 17:41:08.960 +03:00 [INF] Hosting environment: Development
+2023-04-28 17:41:08.961 +03:00 [INF] Content root path: D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\
+2023-04-28 17:41:10.272 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/ - -
+2023-04-28 17:41:10.508 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-28 17:41:10.535 +03:00 [INF] Route matched with {action = "Index", controller = "Persons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (CleanArchitecture.UI).
+2023-04-28 17:41:10.550 +03:00 [INF] PersonsListActionFilter.OnActionExecuting method
+2023-04-28 17:41:10.560 +03:00 [INF] Index service in PersonsController
+2023-04-28 17:41:10.597 +03:00 [INF] GetFilteredPersons method in PersonsService
+2023-04-28 17:41:10.599 +03:00 [INF] GetAllPersons method in PersonsService
+2023-04-28 17:41:10.600 +03:00 [INF] GetAllPersons method in PersonsRepository
+2023-04-28 17:41:11.483 +03:00 [INF] Entity Framework Core 6.0.13 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.13' with options: None
+2023-04-28 17:41:12.315 +03:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber]
+FROM [Persons] AS [p]
+2023-04-28 17:41:12.428 +03:00 [INF] GetSortedPersons method in PersonsService
+2023-04-28 17:41:12.437 +03:00 [INF] PersonsListActionFilter.OnActionExecuted method
+2023-04-28 17:41:12.454 +03:00 [INF] Executing ViewResult, running view Index.
+2023-04-28 17:41:12.742 +03:00 [INF] Executed ViewResult - view Index executed in 288.6267ms.
+2023-04-28 17:41:12.751 +03:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI) in 2212.8569ms
+2023-04-28 17:41:12.752 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (CleanArchitecture.UI)'
+2023-04-28 17:41:12.803 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:41:12.806 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:41:12.815 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 8.1177ms
+2023-04-28 17:41:12.818 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/ - - - 200 - text/html;+charset=utf-8 2549.0395ms
+2023-04-28 17:41:12.832 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:41:12.835 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 31.3111ms
+2023-04-28 17:41:22.794 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login - -
+2023-04-28 17:41:22.811 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2023-04-28 17:41:22.816 +03:00 [INF] AuthenticationScheme: Identity.Application was forbidden.
+2023-04-28 17:41:22.818 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login - - - 302 0 - 24.3841ms
+2023-04-28 17:41:22.826 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/AccessDenied?ReturnUrl=%2FAccount%2FLogin - -
+2023-04-28 17:41:22.845 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/AccessDenied?ReturnUrl=%2FAccount%2FLogin - - - 404 0 - 18.7085ms
+2023-04-28 17:41:35.871 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Logout - -
+2023-04-28 17:41:35.876 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Logout (CleanArchitecture.UI)'
+2023-04-28 17:41:35.882 +03:00 [INF] Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:41:35.893 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2023-04-28 17:41:35.896 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2023-04-28 17:41:35.897 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2023-04-28 17:41:35.899 +03:00 [INF] Executing RedirectResult, redirecting to /Persons/Index.
+2023-04-28 17:41:35.901 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Logout (CleanArchitecture.UI) in 15.3694ms
+2023-04-28 17:41:35.902 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Logout (CleanArchitecture.UI)'
+2023-04-28 17:41:35.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Logout - - - 302 0 - 33.1557ms
+2023-04-28 17:41:35.908 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Persons/Index - -
+2023-04-28 17:41:35.911 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-28 17:41:35.914 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-04-28 17:41:35.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Persons/Index - - - 302 0 - 7.6055ms
+2023-04-28 17:41:35.918 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2FPersons%2FIndex - -
+2023-04-28 17:41:35.920 +03:00 [INF] Executing endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:41:35.923 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CRUDExample.Controllers.AccountController (CleanArchitecture.UI).
+2023-04-28 17:41:35.925 +03:00 [INF] Executing ViewResult, running view Login.
+2023-04-28 17:41:35.975 +03:00 [INF] Executed ViewResult - view Login executed in 50.5959ms.
+2023-04-28 17:41:35.976 +03:00 [INF] Executed action CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI) in 52.1663ms
+2023-04-28 17:41:35.977 +03:00 [INF] Executed endpoint 'CRUDExample.Controllers.AccountController.Login (CleanArchitecture.UI)'
+2023-04-28 17:41:35.979 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Account/Login?ReturnUrl=%2FPersons%2FIndex - - - 200 - text/html;+charset=utf-8 61.1074ms
+2023-04-28 17:41:35.992 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/Stylesheet.css - -
+2023-04-28 17:41:35.995 +03:00 [INF] Sending file. Request path: '/Stylesheet.css'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\StyleSheet.css'
+2023-04-28 17:41:36.001 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/Stylesheet.css - - - 200 11475 text/css 8.8223ms
+2023-04-28 17:41:36.002 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - -
+2023-04-28 17:41:36.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 2.7994ms
+2023-04-28 17:41:36.087 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - -
+2023-04-28 17:41:36.096 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\Study\Web\CleanArchitecture\CleanArchitecture.UI\wwwroot\jquery.validate.unobtrusive.min.js'
+2023-04-28 17:41:36.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7206/jquery.validate.unobtrusive.min.js - - - 200 5871 application/javascript 10.6841ms
